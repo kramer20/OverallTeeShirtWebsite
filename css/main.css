@@ -15,17 +15,23 @@
 .pickShirt {
   height: 330px;
   border: 3px solid #E04A34;
-  border-radius: 168px; }
+  border-radius: 168px;
+  margin: 0 auto;
+  display: block; }
 
 .colorPalette {
   height: 330px;
   border: 3px solid #E04A34;
-  border-radius: 168px; }
+  border-radius: 168px;
+  margin: 0 auto;
+  display: block; }
 
 .design {
-  height: 250px;
+  height: 330px;
   border: 3px solid #E04A34;
-  border-radius: 168px; }
+  border-radius: 168px;
+  margin: 0 auto;
+  display: block; }
 
 body {
   background-color: #fafafa;
@@ -35,24 +41,28 @@ body {
 
 .nav {
   padding-right: 0px; }
-
-.nav ul {
-  background-color: #E04A34;
-  margin-top: -14px;
-  border: 3px solid #fafafa;
-  border-radius: 13px 13px 0px 0px;
-  height: 71px;
-  padding-top: 20px; }
-
-.nav li {
-  display: inline;
-  padding: 0px 74px;
-  font-size: 40px;
-  list-style: none; }
-
-.nav a {
-  color: #bababa;
-  font-family: "Poiret One", cursive; }
+  .nav ul {
+    background-color: #E04A34;
+    margin-top: -14px;
+    border: 3px solid #fafafa;
+    border-radius: 13px 13px 0px 0px;
+    height: 71px;
+    padding-top: 20px; }
+    .nav ul li {
+      display: inline;
+      padding: 0px 63px;
+      font-size: 40px;
+      list-style: none; }
+      .nav ul li a {
+        color: #bababa;
+        font-family: "Poiret One", cursive;
+        text-decoration: none;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px; }
+        .nav ul li a:hover {
+          background-color: #ea8576;
+          color: #7a7a7a; }
 
 .footerNav {
   position: absolute;
@@ -60,21 +70,27 @@ body {
   padding: 16px;
   background-color: #bababa;
   text-align: center; }
+  .footerNav ul {
+    background-color: #bababa;
+    border: 3px solid #fafafa;
+    border-radius: 13px 0px 0px 0px;
+    height: 40px; }
+    .footerNav ul li {
+      display: inline;
+      padding: 0px 22px;
+      font-size: 20px;
+      list-style: none;
+      text-align: center; }
+      .footerNav ul li a {
+        color: #E04A34;
+        font-family: "Poiret One", cursive;
+        font-size: 15px; }
 
-.footerNav ul {
-  background-color: #bababa;
-  border: 3px solid #fafafa;
-  border-radius: 13px 0px 0px 0px;
-  height: 40px; }
+h1, h2 {
+  font-family: "Patrick Hand SC", cursive;
+  text-align: center;
+  color: #616161; }
 
-.footerNav li {
-  display: inline;
-  padding: 0px 22px;
-  font-size: 20px;
-  list-style: none;
-  text-align: center; }
-
-.footerNav a {
-  color: #E04A34;
-  font-family: "Poiret One", cursive;
-  font-size: 15px; }
+h1 {
+  font-size: 80px;
+  margin: 40px; }
