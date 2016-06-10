@@ -1,0 +1,33 @@
+.logo {
+  margin-top: 60px;
+  height: 130px;
+  width: 130px; }
+
+body {
+  background-color: #FBFDE8; }
+
+.header {
+  background-image: url("https://images.unsplash.com/photo-1465085165466-c1c853e472f9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=94bc6a9111d7613ac30aca98e9e0f7e1");
+  height: 230px;
+  background-size: cover;
+  background-position: center; }
+
+.nav {
+  padding-right: 0px; }
+
+.nav ul {
+  background-color: #90C5C9;
+  margin-top: 194px;
+  border: 3px solid #FBFDE8;
+  border-radius: 13px 0px 0px 0px;
+  height: 39px; }
+
+.nav li {
+  display: inline;
+  padding: 0px 22px;
+  font-size: 20px;
+  list-style: none;
+  text-align: right; }
+
+.nav a {
+  color: #C49466; }
