@@ -1,33 +1,80 @@
-.logo {
-  margin-top: 60px;
-  height: 130px;
-  width: 130px; }
-
-body {
-  background-color: #FBFDE8; }
-
 .header {
-  background-image: url("https://images.unsplash.com/photo-1465085165466-c1c853e472f9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=94bc6a9111d7613ac30aca98e9e0f7e1");
+  background-image: url("../Images/tshirtBackground.jpeg");
   height: 230px;
   background-size: cover;
   background-position: center; }
+
+.logo {
+  margin-top: 104px;
+  margin-left: 50px;
+  height: 130px;
+  width: 130px;
+  border: 3px solid #fafafa;
+  border-radius: 18px; }
+
+.pickShirt {
+  height: 330px;
+  border: 3px solid #E04A34;
+  border-radius: 168px; }
+
+.colorPalette {
+  height: 330px;
+  border: 3px solid #E04A34;
+  border-radius: 168px; }
+
+.design {
+  height: 250px;
+  border: 3px solid #E04A34;
+  border-radius: 168px; }
+
+body {
+  background-color: #fafafa;
+  position: relative;
+  padding-bottom: 0;
+  margin: 0; }
 
 .nav {
   padding-right: 0px; }
 
 .nav ul {
-  background-color: #90C5C9;
-  margin-top: 194px;
-  border: 3px solid #FBFDE8;
-  border-radius: 13px 0px 0px 0px;
-  height: 39px; }
+  background-color: #E04A34;
+  margin-top: -14px;
+  border: 3px solid #fafafa;
+  border-radius: 13px 13px 0px 0px;
+  height: 71px;
+  padding-top: 20px; }
 
 .nav li {
+  display: inline;
+  padding: 0px 74px;
+  font-size: 40px;
+  list-style: none; }
+
+.nav a {
+  color: #bababa;
+  font-family: "Poiret One", cursive; }
+
+.footerNav {
+  position: absolute;
+  right: 0;
+  padding: 16px;
+  background-color: #bababa;
+  text-align: center; }
+
+.footerNav ul {
+  background-color: #bababa;
+  border: 3px solid #fafafa;
+  border-radius: 13px 0px 0px 0px;
+  height: 40px; }
+
+.footerNav li {
   display: inline;
   padding: 0px 22px;
   font-size: 20px;
   list-style: none;
-  text-align: right; }
+  text-align: center; }
 
-.nav a {
-  color: #C49466; }
+.footerNav a {
+  color: #E04A34;
+  font-family: "Poiret One", cursive;
+  font-size: 15px; }
