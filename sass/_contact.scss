@@ -1,0 +1,64 @@
+.contactPage {
+	margin-bottom:80px;
+}
+
+i.pinIcon {
+	font-size:30px;
+	text-align:center;
+	color:$orange;
+	margin:0 auto;
+	display:block;
+}
+
+.locationColumn h3 {
+	font-size:20px;
+	font-family:$nav-font;
+	text-align:center;
+
+}
+
+i.mobileIcon {
+	font-size:30px;
+	text-align:center;
+	color:$orange;
+	margin:0 auto;
+	display:block;
+}
+
+.phoneColumn h3 {
+	font-size:20px;
+	font-family:$nav-font;
+	text-align:center;
+}
+
+i.emailIcon {
+	font-size:30px;
+	text-align:center;
+	color:$orange;
+	margin:0 auto;
+	display:block;
+}
+
+.emailColumn h3 {
+	font-size:20px;
+	font-family:$nav-font;
+	text-align:center;
+}
+
+.inputColumn {
+	height:400px;
+  	right: 0;
+  	padding-top:80px;
+  	padding-left:100px;
+  	padding-right:100px;
+  	background-color:$orange;
+}
+
+.name, .email, .commentArea {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.commentArea {
+	height:100px;
+}

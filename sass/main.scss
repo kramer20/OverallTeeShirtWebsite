@@ -7,6 +7,10 @@ $title-font:'Patrick Hand SC', cursive;
 
 @import 'images';
 
+@import 'about';
+
+@import 'contact';
+
 body {
 	background-color:lighten($light-gray,10);
 	position:relative;
@@ -47,7 +51,7 @@ body {
 	
 
 .footerNav {
-	position: absolute;
+	//position: absolute;
   	right: 0;
   	padding: 16px;
   	background-color:darken($light-gray,15);
@@ -72,7 +76,7 @@ body {
 		}
 	}		
 
-h1, h2 {
+h1, h2, {
 	font-family:$title-font;
 	text-align:center;
 	color:darken($light-gray,50);
@@ -89,20 +93,6 @@ h2 {
 	margin-bottom:60px;
 }
 
-p {
-	font-family:$nav-font;
-	font-size:18px;
-	color:darken($light-gray,50);
-}
 
-.meetTeam p {
-	margin-top:30px;
-}
 
-.meetTeam ul {
-	font-family:$nav-font;
-	font-size:18px;
-	color:darken($light-gray,50);
-	margin-bottom:30px;
 
-}

@@ -40,6 +40,83 @@
   border-radius: 168px;
   height: 330px; }
 
+.aboutTees p {
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+  color: #616161;
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.meetTeam p {
+  margin-top: 30px;
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+  color: #616161;
+  padding-left: 80px;
+  padding-right: 80px; }
+
+ul.teamMembers {
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+  color: #616161;
+  margin-bottom: 30px;
+  padding-right: 180px;
+  padding-left: 180px; }
+
+.contactPage {
+  margin-bottom: 80px; }
+
+i.pinIcon {
+  font-size: 30px;
+  text-align: center;
+  color: #E04A34;
+  margin: 0 auto;
+  display: block; }
+
+.locationColumn h3 {
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+  text-align: center; }
+
+i.mobileIcon {
+  font-size: 30px;
+  text-align: center;
+  color: #E04A34;
+  margin: 0 auto;
+  display: block; }
+
+.phoneColumn h3 {
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+  text-align: center; }
+
+i.emailIcon {
+  font-size: 30px;
+  text-align: center;
+  color: #E04A34;
+  margin: 0 auto;
+  display: block; }
+
+.emailColumn h3 {
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+  text-align: center; }
+
+.inputColumn {
+  height: 400px;
+  right: 0;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #E04A34; }
+
+.name, .email, .commentArea {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.commentArea {
+  height: 100px; }
+
 body {
   background-color: #fafafa;
   position: relative;
@@ -72,7 +149,6 @@ body {
           color: #7a7a7a; }
 
 .footerNav {
-  position: absolute;
   right: 0;
   padding: 16px;
   background-color: #bababa;
@@ -106,17 +182,3 @@ h2 {
   font-size: 40px;
   margin-top: 30px;
   margin-bottom: 60px; }
-
-p {
-  font-family: "Poiret One", cursive;
-  font-size: 18px;
-  color: #616161; }
-
-.meetTeam p {
-  margin-top: 30px; }
-
-.meetTeam ul {
-  font-family: "Poiret One", cursive;
-  font-size: 18px;
-  color: #616161;
-  margin-bottom: 30px; }

@@ -1,0 +1,25 @@
+.aboutTees p {
+	font-family:$nav-font;
+	font-size:18px;
+	color:darken($light-gray,50);
+	padding-left:80px;
+	padding-right:80px;
+}
+.meetTeam p {
+	margin-top:30px;
+	font-family:$nav-font;
+	font-size:18px;
+	color:darken($light-gray,50);
+	padding-left:80px;
+	padding-right:80px;
+}
+	
+ul.teamMembers {
+		font-family:$nav-font;
+		font-size:18px;
+		color:darken($light-gray,50);
+		margin-bottom:30px;
+		padding-right:180px;
+		padding-left:180px;
+	}
+	
