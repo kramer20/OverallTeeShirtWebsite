@@ -83,4 +83,26 @@ h1 {
 	margin:40px;
 }
 
+h2 {
+	font-size:40px;
+	margin-top:30px;
+	margin-bottom:60px;
+}
 
+p {
+	font-family:$nav-font;
+	font-size:18px;
+	color:darken($light-gray,50);
+}
+
+.meetTeam p {
+	margin-top:30px;
+}
+
+.meetTeam ul {
+	font-family:$nav-font;
+	font-size:18px;
+	color:darken($light-gray,50);
+	margin-bottom:30px;
+
+}
