@@ -133,15 +133,12 @@ i.emailIcon {
 #commentArea {
   height: 150px; }
 
-.container {
-  margin-left: auto;
-  margin-right: 0; }
-
 .borderContainer {
   border: 2px solid;
   border-color: #E04A34;
   height: 311px;
-  width: 100%; }
+  width: 264px;
+  margin-bottom: 40px; }
 
 .column {
   margin-left: 4%;
@@ -150,9 +147,6 @@ i.emailIcon {
   box-sizing: border-box;
   margin-top: 40px;
   width: 256px; }
-
-.left, .middle, .right {
-  width: 306px; }
 
 .box {
   border-top: 2px solid #E04A34;
@@ -230,8 +224,9 @@ i {
   width: 20px;
   display: block;
   box-sizing: border-box;
-  margin-top: 10px;
-  margin-left: 15px; }
+  margin: 0 auto;
+  display: block;
+  margin-top: 11px; }
 
 .pink.four .small {
   border: solid #E04A34;
@@ -240,8 +235,9 @@ i {
   width: 20px;
   display: block;
   box-sizing: border-box;
-  margin-top: 10px;
-  margin-left: 15px; }
+  margin: 0 auto;
+  display: block;
+  margin-top: 11px; }
 
 .orange.four .small {
   border: solid #E04A34;
@@ -250,8 +246,9 @@ i {
   width: 20px;
   display: block;
   box-sizing: border-box;
-  margin-top: 10px;
-  margin-left: 15px; }
+  margin: 0 auto;
+  display: block;
+  margin-top: 11px; }
 
 .column .box i {
   text-align: center;
@@ -262,8 +259,9 @@ i {
   transform: rotate(180deg);
   text-align: center;
   display: block;
-  margin-top: 3px;
-  font-size: 12px; }
+  margin-top: 0px;
+  font-size: 12px;
+  padding-bottom: 6px; }
 
 .column .trees p {
   display: inline-block;
@@ -287,11 +285,16 @@ i {
 .active {
   background-color: #E04A34; }
   .active .fa {
-    color: white; }
+    color: #E0E0E0; }
 
 .icon:hover {
   background-color: #E04A34;
   cursor: pointer; }
+
+.icon:hover .small {
+  background-color: #E04A34;
+  cursor: pointer;
+  padding: 0px; }
 
 .icon:hover i {
   color: #E0E0E0; }
@@ -477,6 +480,20 @@ body {
         color: #E04A34;
         font-family: "Poiret One", cursive;
         font-size: 15px; }
+
+.mobileMenu {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none; }
+  .mobileMenu {
+    display: block;
+    float: right;
+    margin-top: 30px; }
+  .mobileMenu button {
+    margin: 0px auto;
+    display: block; } }
 
 h1, h2 {
   font-family: "Patrick Hand SC", cursive;

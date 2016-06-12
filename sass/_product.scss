@@ -3,20 +3,17 @@
 	width:20px;
 	display:block;
 	box-sizing:border-box;
-	margin-top:10px;
-	margin-left:15px;
+	margin:0 auto;
+	display:block;
+	margin-top:11px;
 	}
-
-.container {
-	margin-left:auto;
-	margin-right:0;
-}
 
 .borderContainer {
 	border: 2px solid;
 	border-color:$orange;	
 	height:311px;
-	width:100%;
+	width:264px;
+	margin-bottom:40px;
 }
 
 .column {
@@ -28,9 +25,6 @@
 	width:256px;
 }
 
-.left, .middle, .right {
-	width:306px;
-}
 
 .box {
 	border-top:2px solid $orange;
@@ -60,9 +54,6 @@
  		margin-top: -5px;
 	 }
 }	 
-
-	
-
 
 .blue.box > div {
 	border-right:2px solid $orange;
@@ -120,6 +111,7 @@ i {
 	text-align:center;
 }
 
+
 .blue.four .small {
 	border:solid $orange;
 	background-color: $orange;
@@ -148,8 +140,9 @@ i {
 	transform:rotate(180deg);
 	text-align:center;
 	display:block;
-	margin-top:3px;
+	margin-top:0px;
 	font-size:12px;
+	padding-bottom:6px;
 }
 
 .column .trees p {
@@ -179,13 +172,19 @@ i {
 .active{
 	background-color:$orange;
 	.fa{
-		color:white;
+		color:$light-gray;
 	}
 }
 
 .icon:hover {
 	background-color:$orange;
 	cursor:pointer;
+}
+
+.icon:hover .small {
+	background-color:$orange;
+	cursor:pointer;
+	padding:0px;
 }
 
 .icon:hover i {
@@ -225,9 +224,6 @@ i {
    
 }
 
-
-
-
 .flip-container {
 	perspective: 1000px;
 }
@@ -266,7 +262,7 @@ i {
 
 .dropdownTwo {
     display: inline-block;
-   	position:relative;   
+   	position:relative;  	
 }
 
 .dropdownTwo .tshirtColor li {
@@ -356,7 +352,3 @@ i {
 .column {
 	position:relative;
 }
-
-
-
-
