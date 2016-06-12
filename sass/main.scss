@@ -1,7 +1,8 @@
-$light-gray:#E0E0E0;
+$light-gray:#E0E0E0; 
 $light-green:#C8E5B9;
+$purple:#AA83CB;
+$yellow:#FFFACD;
 $orange:#E04A34;
-$cream:#FBFDE8;
 $nav-font:'Poiret One', cursive;
 $title-font:'Patrick Hand SC', cursive;
 
@@ -10,6 +11,8 @@ $title-font:'Patrick Hand SC', cursive;
 @import 'about';
 
 @import 'contact';
+
+@import 'product';
 
 body {
 	background-color:lighten($light-gray,10);

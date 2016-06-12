@@ -49,16 +49,16 @@ i.emailIcon {
 	height:400px;
   	right: 0;
   	padding-top:80px;
-  	padding-left:100px;
-  	padding-right:100px;
+  	padding-left:200px;
+  	padding-right:200px;
   	background-color:$orange;
 }
 
-.name, .email, .commentArea {
+#name, #email, #commentArea {
 	width:100%;
 	margin-bottom:20px;
 }
 
-.commentArea {
-	height:100px;
+#commentArea {
+	height:150px;
 }
