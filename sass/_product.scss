@@ -1,11 +1,11 @@
 @mixin smallBox () {
-	height:20px;
-	width:20px;
+	height:15px;
+	width:15px;
 	display:block;
 	box-sizing:border-box;
 	margin:0 auto;
 	display:block;
-	margin-top:11px;
+	margin-top:14px;
 	}
 
 .borderContainer {
@@ -17,12 +17,12 @@
 }
 
 .column {
-	margin-left:4%;
-	display:inline-block;
 	vertical-align:top;
 	box-sizing:border-box;
-	margin-top:20px * 2;
 	width:256px;
+	margin:0 auto;
+	display:block;
+	margin-top:20px * 2;
 }
 
 
@@ -296,8 +296,8 @@ i {
 }
 
 .selector.blue {
-		border:solid $yellow;
-		background-color: $yellow;
+		border:solid $blue;
+		background-color:$blue;
 		height:20px;
 		width:20px;
 		display:inline-block;
@@ -309,8 +309,8 @@ i {
 	}	
 
 .selector.pink {
-		border:solid $purple;
-		background-color: $purple;
+		border:solid $pink;
+		background-color: $pink;
 		height:20px;
 		width:20px;
 		display:inline-block;
@@ -333,8 +333,8 @@ i {
 		}	
 
 .selector.green {
-		border:solid $light-green;
-		background-color:$light-green;
+		border:solid $green;
+		background-color:$green;
 		height:20px;
 		width:20px;
 		display:inline-block;

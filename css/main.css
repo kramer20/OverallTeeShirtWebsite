@@ -56,6 +56,59 @@
   margin-top: 3px;
   padding-bottom: 20px; }
 
+.dropdown {
+  display: inline-block;
+  position: relative; }
+
+.dropdown .tshirt li {
+  display: inline-block; }
+
+.tshirt ul {
+  display: none;
+  position: absolute;
+  top: -258px;
+  margin-left: -14px;
+  padding: 0; }
+
+.dropdown:hover .tshirt ul {
+  display: block;
+  border: solid 2px #E04A34;
+  background-color: #F2F2F2;
+  height: 257px;
+  width: 80px; }
+
+.dropdown:hover ul {
+  animation: moveUp .2s, fade .2s;
+  animation-iteration-count: once;
+  animation-timing-function: linear;
+  animation-delay: .35s; }
+
+.dropdown .smallT img {
+  height: 48px;
+  width: 39px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+  display: block;
+  margin-left: 17px; }
+
+.dropdown .medium img {
+  height: 58px;
+  width: 50px;
+  margin-left: 12px;
+  margin-top: -8px; }
+
+.dropdown .large img {
+  height: 69px;
+  width: 58px;
+  margin: 8px; }
+
+.dropdown .extraLarge img {
+  height: 82px;
+  width: 69px;
+  margin-top: 4px;
+  margin-bottom: -12px;
+  margin-left: 4px; }
+
 .aboutTees p {
   font-family: "Poiret One", cursive;
   font-size: 18px;
@@ -141,12 +194,12 @@ i.emailIcon {
   margin-bottom: 40px; }
 
 .column {
-  margin-left: 4%;
-  display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
-  margin-top: 40px;
-  width: 256px; }
+  width: 256px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px; }
 
 .box {
   border-top: 2px solid #E04A34;
@@ -220,35 +273,35 @@ i {
 .blue.four .small {
   border: solid #E04A34;
   background-color: #E04A34;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   display: block;
   box-sizing: border-box;
   margin: 0 auto;
   display: block;
-  margin-top: 11px; }
+  margin-top: 14px; }
 
 .pink.four .small {
   border: solid #E04A34;
   background-color: #E04A34;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   display: block;
   box-sizing: border-box;
   margin: 0 auto;
   display: block;
-  margin-top: 11px; }
+  margin-top: 14px; }
 
 .orange.four .small {
   border: solid #E04A34;
   background-color: #E04A34;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   display: block;
   box-sizing: border-box;
   margin: 0 auto;
   display: block;
-  margin-top: 11px; }
+  margin-top: 14px; }
 
 .column .box i {
   text-align: center;
@@ -380,8 +433,8 @@ i {
   width: 70px; }
 
 .selector.blue {
-  border: solid #FFFACD;
-  background-color: #FFFACD;
+  border: solid #3D435C;
+  background-color: #3D435C;
   height: 20px;
   width: 20px;
   display: inline-block;
@@ -392,8 +445,8 @@ i {
   margin-bottom: -2px; }
 
 .selector.pink {
-  border: solid #AA83CB;
-  background-color: #AA83CB;
+  border: solid #631A35;
+  background-color: #631A35;
   height: 20px;
   width: 20px;
   display: inline-block;
@@ -413,8 +466,8 @@ i {
   margin-left: 10px; }
 
 .selector.green {
-  border: solid #C8E5B9;
-  background-color: #C8E5B9;
+  border: solid #28746A;
+  background-color: #28746A;
   height: 20px;
   width: 20px;
   display: inline-block;
