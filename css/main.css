@@ -20,18 +20,20 @@
   display: block; }
 
 .colorPalette {
-  height: 330px;
+  height: 300px;
   border: 3px solid #E04A34;
   border-radius: 168px;
   margin: 0 auto;
-  display: block; }
+  display: block;
+  margin-bottom: 53px; }
 
 .design {
-  height: 330px;
+  height: 300px;
   border: 3px solid #E04A34;
   border-radius: 168px;
   margin: 0 auto;
-  display: block; }
+  display: block;
+  margin-bottom: 53px; }
 
 .teamPhoto {
   margin: 0 auto;
@@ -181,8 +183,8 @@ i.emailIcon {
   height: 400px;
   right: 0;
   padding-top: 80px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 148px;
+  padding-right: 148px;
   background-color: #E04A34; }
 
 #name, #email, #commentArea {
@@ -515,7 +517,7 @@ i {
   border-radius: 15px; }
 
 .totalBox label, input {
-  color: #E04A34;
+  color: #616161;
   font-size: 24px;
   font-family: "Patrick Hand SC", cursive;
   display: block; }
@@ -561,10 +563,11 @@ h5 {
   text-align: center;
   font-size: 20px; }
 
-h2 {
+h2.newItem {
   font-family: "Patrick Hand SC", cursive;
-  color: #E04A34;
-  font-size: 18px; }
+  color: #616161;
+  margin-bottom: 20px;
+  margin-top: 0; }
 
 span.inCart {
   font-family: "Patrick Hand SC", cursive;
@@ -575,7 +578,8 @@ span.inCart {
 span.shirtColor {
   font-weight: bold;
   margin-right: 10px;
-  margin-left: 5px; }
+  margin-left: 5px;
+  margin-top: 12px; }
 
 span.shirtPrice {
   font-weight: bold; }
@@ -593,6 +597,8 @@ body {
 .nav {
   padding-right: 0px; }
   .nav ul {
+    margin: 0 auto;
+    display: block;
     background-color: #E04A34;
     margin-top: -14px;
     border: 3px solid #fafafa;
@@ -641,15 +647,47 @@ body {
   display: none; }
 
 @media screen and (max-width: 768px) {
-  .nav {
+  .nav, .footerNav {
     display: none; }
   .mobileMenu {
     display: block;
     float: right;
     margin-top: 30px; }
   .mobileMenu button {
-    margin: 0px auto;
-    display: block; } }
+    position: relative;
+    color: #E04A34;
+    font-family: "Poiret One", cursive;
+    font-size: 20px;
+    border-radius: 5px; } }
+
+.mobileDropdown .mobileList li {
+  display: inline-block;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  padding: 5px; }
+
+.mobileDropdown .mobileList a {
+  color: #E04A34;
+  text-decoration: none; }
+  .mobileDropdown .mobileList a:hover {
+    background-color: #ea8576;
+    color: #7a7a7a; }
+
+.mobileDropdown .mobileList ul {
+  display: none;
+  position: absolute;
+  top: 9px;
+  float: center;
+  padding: 1px; }
+
+.mobileDropdown:hover .mobileList ul {
+  display: block;
+  border: solid 2px #E04A34;
+  background-color: white;
+  height: 125px;
+  width: 70px;
+  border-radius: 5px;
+  margin-top: 23px; }
 
 h1, h2 {
   font-family: "Patrick Hand SC", cursive;

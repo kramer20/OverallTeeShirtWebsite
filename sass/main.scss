@@ -27,6 +27,8 @@ body {
 	padding-right:0px;
 
 		ul {
+			margin:0 auto;
+			display:block;
 			background-color:$orange;
 			margin-top:-14px;
 			border:3px solid lighten($light-gray,10);
@@ -88,7 +90,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .nav {
+  .nav, .footerNav {
     display:none;
   }
   .mobileMenu {
@@ -98,11 +100,49 @@ body {
   }
   
   .mobileMenu button {
-    margin:0px auto;
-    display:block;
+    position:relative;
+    color:$orange;
+    font-family: $nav-font;
+    font-size: 20px;
+    border-radius:5px;
   }
  } 
-  
+
+
+.mobileDropdown .mobileList li {
+	display: inline-block;
+	font-family:$nav-font;
+	text-align:center;
+	padding:5px;
+}
+
+.mobileDropdown .mobileList a {
+	color:$orange;
+	text-decoration:none;
+
+	&:hover {
+			background-color:lighten($orange,15);
+			color:darken($light-gray,40)
+					}
+}
+
+.mobileDropdown .mobileList ul {
+	display: none;
+    position: absolute;
+    top: 9px;
+    float:center;
+    padding:1px;
+}
+
+.mobileDropdown:hover .mobileList ul {
+	display: block;
+	border:solid 2px $orange;
+	background-color:white;
+	height:125px;
+	width:70px;
+	border-radius:5px;
+	margin-top:23px;
+}
 
 h1, h2, {
 	font-family:$title-font;
