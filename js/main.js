@@ -1,20 +1,20 @@
 var blueTshirt = {
   price:29.00,
-  color:'Blue',
+  color:'Plain',
   inCart:false,
-  title:'Save my trees',
+  title:'Crew Neck Tee',
 }
 var pinkTshirt = {
   price:19.00,
-  color:'Pink',
+  color:'White',
   inCart:false,
-  title:'Nature Lover',
+  title:'Vneck Tee',
 }
 var orangeTshirt = {
   price:39.00,
-  color:'Orange',
+  color:'Navy',
   inCart:false,
-  title:'Forrest Walk',
+  title:'Pocket Tee',
 }
 
 // Array for the cart
@@ -34,7 +34,7 @@ document.getElementById("date").innerHTML = "<h5>"+Date()+"</h5>";
 
 function addToCart(price,color) { 
 
-  if (blueTshirt.inCart === false && color==='blue')
+if (blueTshirt.inCart === false && color==='plain')
   {
     blueCart.className='active';
     blueTshirt.inCart=true;
@@ -43,7 +43,7 @@ function addToCart(price,color) {
     subtotalBox.value = total;
     totalBox.value = calculateTotal(); 
   }
-  else if(color === 'blue')
+  else if(color === 'plain')
   {
     blueCart.className="click";
     blueTshirt.inCart=false;
@@ -53,7 +53,7 @@ function addToCart(price,color) {
     totalBox.value = calculateTotal();
   }
 
-  else if (pinkTshirt.inCart === false && color==='pink')
+  else if (pinkTshirt.inCart === false && color==='white')
   {
     pinkCart.className='active';
     pinkTshirt.inCart=true;
@@ -62,7 +62,7 @@ function addToCart(price,color) {
     subtotalBox.value = total;
     totalBox.value = calculateTotal(); 
   }
-  else if (color === 'pink')
+  else if (color === 'white')
   {
     pinkCart.className="click";
     pinkTshirt.inCart=false;
@@ -72,7 +72,7 @@ function addToCart(price,color) {
     totalBox.value = calculateTotal();
   }
 
-  else if (orangeTshirt.inCart === false && color==='orange')
+  else if (orangeTshirt.inCart === false && color==='navy')
   {
     orangeCart.className='active';
     orangeTshirt.inCart=true;
@@ -81,7 +81,7 @@ function addToCart(price,color) {
     subtotalBox.value = total;
     totalBox.value = calculateTotal(); 
   }
-  else if (color === 'orange')
+  else if (color === 'navy')
   {
     orangeCart.className="click";
     orangeTshirt.inCart=false;
