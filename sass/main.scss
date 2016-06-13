@@ -14,6 +14,8 @@ $title-font:'Patrick Hand SC', cursive;
 
 @import 'product';
 
+@import 'cart';
+
 body {
 	background-color:lighten($light-gray,10);
 	position:relative;

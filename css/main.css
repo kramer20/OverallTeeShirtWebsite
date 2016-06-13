@@ -56,6 +56,12 @@
   margin-top: 3px;
   padding-bottom: 20px; }
 
+.front img.pinkShirt {
+  margin-left: 29px; }
+
+.back img.pinkHover {
+  margin-right: 31px; }
+
 .dropdown {
   display: inline-block;
   position: relative; }
@@ -191,7 +197,7 @@ i.emailIcon {
   border-color: #E04A34;
   height: 311px;
   width: 264px;
-  margin-bottom: 40px; }
+  margin-bottom: 15px; }
 
 .column {
   vertical-align: top;
@@ -259,10 +265,11 @@ i.emailIcon {
   margin: 0;
   padding: 11px; }
 
-p {
+.three p {
   color: #E04A34;
   font-family: "Poiret One", cursive;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 
 i {
   color: #E04A34;
@@ -319,21 +326,26 @@ i {
 .column .trees p {
   display: inline-block;
   margin-top: 2px;
-  font-family: "Poiret One", cursive;
-  margin-bottom: 12px; }
-
-.price {
-  font-weight: bold; }
+  font-family: "Patrick Hand SC", cursive;
+  color: #E04A34;
+  font-size: 30px; }
 
 .column .nature p {
   display: inline-block;
   margin-top: 2px;
-  font-family: "Poiret One", cursive; }
+  font-family: "Patrick Hand SC", cursive;
+  color: #E04A34;
+  font-size: 30px; }
 
 .column .forrest p {
   display: inline-block;
   margin-top: 2px;
-  font-family: "Poiret One", cursive; }
+  font-family: "Patrick Hand SC", cursive;
+  color: #E04A34;
+  font-size: 30px; }
+
+.price {
+  font-weight: bold; }
 
 .active {
   background-color: #E04A34; }
@@ -481,6 +493,97 @@ i {
 
 .column {
   position: relative; }
+
+.cardDate {
+  margin-top: 30px; }
+
+.totalTitle {
+  height: 70px;
+  width: 400px;
+  background: #E04A34;
+  border: 2px solid #E04A34;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 15px; }
+
+.totalBox {
+  height: 300px;
+  width: 400px;
+  border: 2px solid #E04A34;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 15px; }
+
+.totalBox label, input {
+  color: #E04A34;
+  font-size: 24px;
+  font-family: "Patrick Hand SC", cursive;
+  display: block; }
+
+input[type="text"] {
+  width: 80px;
+  display: inline-block;
+  float: right;
+  margin-top: -36px; }
+
+label {
+  margin-top: 10px; }
+
+.totalColumn {
+  margin-top: 30px; }
+
+.cartTitle {
+  height: 70px;
+  width: 400px;
+  background: #E04A34;
+  border: 2px solid #E04A34;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 15px; }
+
+.cartBox {
+  height: 300px;
+  width: 400px;
+  border: 2px solid #E04A34;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 15px; }
+
+h5 {
+  font-family: "Patrick Hand SC", cursive;
+  color: #E04A34;
+  margin-top: 20px;
+  margin-left: 5px; }
+
+h2 {
+  font-family: "Patrick Hand SC", cursive;
+  color: #E04A34;
+  font-size: 18px;
+  margin-top: 20px; }
+
+span.inCart {
+  font-family: "Patrick Hand SC", cursive;
+  color: #E0E0E0;
+  font-size: 40px;
+  margin-left: 137px; }
+
+span.shirtColor {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 5px; }
+
+span.shirtPrice {
+  font-weight: bold; }
+
+.shirtTitle {
+  margin-left: 5px;
+  font-size: 15px; }
 
 body {
   background-color: #fafafa;

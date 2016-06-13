@@ -1,0 +1,111 @@
+
+.cardDate{
+	margin-top:30px;
+}
+.totalTitle {
+	height:70px;
+	width:400px;
+	background:$orange;
+	border:2px solid $orange; 
+	margin:0 auto;
+	display:block;
+	margin-bottom:20px;
+	border-radius:15px;
+}
+
+.totalBox {
+	height:300px;
+	width:400px;
+	border:2px solid $orange; 
+	padding-top:20px;
+	margin:0 auto;
+	display:block;
+	margin-bottom:20px;
+	border-radius:15px;
+
+}
+
+.totalBox label, input{
+	color:$orange;
+	font-size:24px;
+	font-family:$title-font;
+	display:block;
+
+}
+
+input[type="text"] {
+	width:80px;	
+	display:inline-block;
+	float:right;
+	margin-top:-36px;
+	
+}
+
+label {
+	margin-top:10px;
+
+	
+}
+
+.totalColumn {
+	margin-top:30px;
+}
+
+.cartTitle {
+	height:70px;
+	width:400px;
+	background:$orange;
+	border:2px solid $orange; 
+	margin:0 auto;
+	display:block;
+	margin-bottom:20px;
+	border-radius:15px;
+}
+
+.cartBox { 
+	height:300px;
+	width:400px;
+	border:2px solid $orange; 
+	padding-top:20px;
+	margin:0 auto;
+	display:block;
+	margin-bottom:20px;
+	border-radius:15px;
+}
+
+h5 {
+	font-family:$title-font;
+	color:$orange;
+	margin-top:20px;
+	margin-left:5px;
+
+}
+h2 {
+	font-family:$title-font;
+	color:$orange;
+	font-size:18px;
+	margin-top:20px;
+
+}
+
+span.inCart {
+	font-family:$title-font;
+	color:$light-gray;
+	font-size:40px;
+	margin-left:137px;
+}
+
+span.shirtColor {
+	font-weight:bold;
+	margin-right:10px;
+	margin-left:5px;
+}
+
+span.shirtPrice {
+	font-weight:bold;
+}
+
+.shirtTitle {
+	margin-left:5px;
+	font-size:15px;
+}

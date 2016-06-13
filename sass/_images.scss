@@ -57,13 +57,21 @@
    }
 
 .back img {
-	 height: 238px;
+	height: 238px;
   max-width: 100%;
   margin-right:14px;
   margin-bottom: 8px;
   margin-top:3px;
   padding-bottom: 20px;
    }
+
+.front img.pinkShirt {
+	margin-left:29px;
+}
+
+.back img.pinkHover {
+	margin-right:31px;
+}
 
 .dropdown {
     display: inline-block;

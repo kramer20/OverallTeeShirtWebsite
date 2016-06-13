@@ -13,7 +13,7 @@
 	border-color:$orange;	
 	height:311px;
 	width:264px;
-	margin-bottom:40px;
+	margin-bottom:15px;
 }
 
 .column {
@@ -97,10 +97,11 @@
 	padding:11px;
 }
 
-p {
+.three p {
 	color:$orange;
 	font-family: $nav-font;
 	text-align: center;
+	font-weight:bold;
 }
 
 
@@ -148,25 +149,30 @@ i {
 .column .trees p {
 	display:inline-block;
 	margin-top: 2px;
-	font-family: $nav-font;
-	margin-bottom:12px;
-}
-
-.price {
-	font-weight:bold;
+	font-family: $title-font;
+	color:$orange;
+	font-size:30px;
 }
 
 .column .nature p {
 	display:inline-block;
 	margin-top: 2px;
-	font-family: $nav-font;
+	font-family: $title-font;
+	color:$orange;
+	font-size:30px;
 
 }
 
 .column .forrest p {
 	display:inline-block;
 	margin-top: 2px;
-	font-family: $nav-font;
+	font-family: $title-font;
+	color: $orange;
+	font-size:30px;
+}
+
+.price {
+	font-weight:bold;
 }
 
 .active{
