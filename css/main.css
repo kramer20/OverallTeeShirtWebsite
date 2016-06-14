@@ -75,7 +75,7 @@
   display: none;
   position: absolute;
   top: -258px;
-  margin-left: -14px;
+  margin-left: -16px;
   padding: 0; }
 
 .dropdown:hover .tshirt ul {
@@ -93,52 +93,64 @@
 
 .dropdown .smallT img {
   height: 48px;
-  width: 39px;
+  width: 42px;
   padding-bottom: 8px;
   margin: 0 auto;
   display: block;
   margin-left: 17px; }
+  .dropdown .smallT img:hover {
+    background-color: #ea8576;
+    padding: 3px; }
 
 .dropdown .medium img {
   height: 58px;
-  width: 50px;
+  width: 51px;
   margin-left: 12px;
   margin-top: -8px; }
+  .dropdown .medium img:hover {
+    background-color: #ea8576;
+    padding: 3px; }
 
 .dropdown .large img {
   height: 69px;
-  width: 58px;
+  width: 60px;
   margin: 8px; }
+  .dropdown .large img:hover {
+    background-color: #ea8576;
+    padding: 3px; }
 
 .dropdown .extraLarge img {
   height: 82px;
   width: 69px;
   margin-top: 4px;
-  margin-bottom: -12px;
+  margin-bottom: -8px;
   margin-left: 4px; }
+  .dropdown .extraLarge img:hover {
+    background-color: #ea8576;
+    padding: 3px; }
 
 .aboutTees p {
   font-family: "Poiret One", cursive;
   font-size: 18px;
   color: #616161;
-  padding-left: 80px;
-  padding-right: 80px; }
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .meetTeam p {
   margin-top: 30px;
   font-family: "Poiret One", cursive;
   font-size: 18px;
   color: #616161;
-  padding-left: 80px;
-  padding-right: 80px; }
+  padding-left: 30px;
+  padding-right: 30px; }
 
 ul.teamMembers {
   font-family: "Poiret One", cursive;
   font-size: 18px;
   color: #616161;
   margin-bottom: 30px;
-  padding-right: 180px;
-  padding-left: 180px; }
+  padding-right: 140px;
+  padding-left: 140px; }
 
 .contactPage {
   margin-bottom: 80px; }
@@ -457,6 +469,9 @@ i {
   margin-top: 12px;
   margin-left: 10px;
   margin-bottom: -2px; }
+  .selector.blue:hover {
+    background-color: #667099;
+    padding: 5px; }
 
 .selector.pink {
   border: solid #631A35;
@@ -468,6 +483,9 @@ i {
   margin: 3px;
   margin-top: 12px;
   margin-bottom: -2px; }
+  .selector.pink:hover {
+    background-color: #b42f60;
+    padding: 5px; }
 
 .selector.orange {
   border: solid #E04A34;
@@ -478,6 +496,9 @@ i {
   box-sizing: border-box;
   margin: 3px;
   margin-left: 10px; }
+  .selector.orange:hover {
+    background-color: #ee998c;
+    padding: 5px; }
 
 .selector.green {
   border: solid #28746A;
@@ -487,6 +508,9 @@ i {
   display: inline-block;
   box-sizing: border-box;
   margin: 3px; }
+  .selector.green:hover {
+    background-color: #44beae;
+    padding: 5px; }
 
 .column.flipBox {
   position: absolute;
@@ -610,7 +634,8 @@ body {
       display: inline;
       padding: 0px 63px;
       font-size: 40px;
-      list-style: none; }
+      list-style: none;
+      text-align: center; }
       .nav ul li a {
         color: #bababa;
         font-family: "Poiret One", cursive;
@@ -657,8 +682,13 @@ body {
     position: relative;
     color: #E04A34;
     font-family: "Poiret One", cursive;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 5px; } }
+
+.mobileDropdown {
+  z-index: 9999;
+  display: inline-block;
+  position: relative; }
 
 .mobileDropdown .mobileList li {
   display: inline-block;
@@ -668,7 +698,9 @@ body {
 
 .mobileDropdown .mobileList a {
   color: #E04A34;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px; }
   .mobileDropdown .mobileList a:hover {
     background-color: #ea8576;
     color: #7a7a7a; }
@@ -676,7 +708,7 @@ body {
 .mobileDropdown .mobileList ul {
   display: none;
   position: absolute;
-  top: 9px;
+  top: 17px;
   float: center;
   padding: 1px; }
 
@@ -684,8 +716,8 @@ body {
   display: block;
   border: solid 2px #E04A34;
   background-color: white;
-  height: 125px;
-  width: 70px;
+  height: 160px;
+  width: 100px;
   border-radius: 5px;
   margin-top: 23px; }
 

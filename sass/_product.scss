@@ -312,6 +312,11 @@ i {
 		margin-top: 12px;
 		margin-left: 10px;
 		margin-bottom:-2px;	
+
+		&:hover {
+			background-color:lighten($blue,20);
+			padding:5px;
+					}
 	}	
 
 .selector.pink {
@@ -324,6 +329,11 @@ i {
 		margin:3px;
 		margin-top: 12px;
 		margin-bottom:-2px;
+
+		&:hover {
+			background-color:lighten($pink,20);
+			padding:5px;
+					}
 		}
 		
 
@@ -336,6 +346,11 @@ i {
 		box-sizing:border-box;
 		margin:3px;
 		margin-left:10px;
+
+		&:hover {
+			background-color:lighten($orange,20);
+			padding:5px;
+					}
 		}	
 
 .selector.green {
@@ -346,6 +361,11 @@ i {
 		display:inline-block;
 		box-sizing:border-box;
 		margin:3px;
+
+		&:hover {
+			background-color:lighten($green,20);
+			padding:5px;
+					}
 		}	
 
 
