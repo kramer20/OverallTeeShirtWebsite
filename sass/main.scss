@@ -36,13 +36,13 @@ body {
 			height:71px;
 			padding-top:20px;
 			padding-left:0;
-	
+			text-align: center;
 			li {
   				display:inline;
   				padding:0px 63px;
   				font-size:40px;
   				list-style:none;
-  				text-align: center;
+  				
 				a {
 					color:darken($light-gray,15);
 					font-family:$nav-font;
@@ -50,7 +50,7 @@ body {
 					padding-top:25px;
 					padding-left:10px;
 					padding-right:10px;
-					text-align: center;
+					
 
 					&:hover {
 						background-color:lighten($orange,15);
