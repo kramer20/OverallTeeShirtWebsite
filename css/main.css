@@ -621,7 +621,6 @@ body {
 .nav {
   padding-right: 0px; }
   .nav ul {
-    margin: 0 auto;
     display: block;
     background-color: #E04A34;
     margin-top: -14px;
@@ -629,13 +628,13 @@ body {
     border-radius: 13px 13px 0px 0px;
     height: 71px;
     padding-top: 20px;
-    padding-left: 0; }
+    padding-left: 0;
+    text-align: center !important; }
     .nav ul li {
       display: inline;
       padding: 0px 63px;
       font-size: 40px;
-      list-style: none;
-      text-align: center; }
+      list-style: none; }
       .nav ul li a {
         color: #bababa;
         font-family: "Poiret One", cursive;
@@ -734,3 +733,8 @@ h2 {
   font-size: 40px;
   margin-top: 30px;
   margin-bottom: 60px; }
+
+@media (max-width: 1079px) {
+  .nav li {
+    font-size: 30px;
+    padding: 0 39px; } }

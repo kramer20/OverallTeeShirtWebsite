@@ -157,6 +157,8 @@ body {
 }
 
 
+
+
 h1, h2, {
 	font-family:$title-font;
 	text-align:center;
@@ -175,7 +177,7 @@ h2 {
 }
 
 
-@media and screen (max-width:1079px){
+@media (max-width:1079px){
 	.nav li{
 		font-size:30px;
 		padding:0 39px;
