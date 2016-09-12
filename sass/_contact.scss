@@ -63,3 +63,10 @@ i.emailIcon {
 #commentArea {
 	height:150px;
 }
+
+@media (max-width:780px){
+.inputColumn{
+	padding-right:60px;
+	padding-left:60px;
+}
+}

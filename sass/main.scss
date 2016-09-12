@@ -98,8 +98,7 @@ body {
     display:none;
   }
   .mobileMenu {
-    display:block;
-    float:right;
+    display:inline-block;
     margin-top:30px;
   }
   
@@ -107,7 +106,7 @@ body {
     position:relative;
     color:$orange;
     font-family: $nav-font;
-    font-size: 25px;
+    font-size: 20px;
     border-radius:5px;
   }
  } 
@@ -116,6 +115,7 @@ body {
 	z-index:9999;
 	display:inline-block;
 	position:relative;
+	float:right;
 }
 
 .mobileDropdown .mobileList li {
@@ -129,7 +129,7 @@ body {
 .mobileDropdown .mobileList a {
 	color:$orange;
 	text-decoration:none;
-	font-size:20px;
+	font-size:15px;
 	padding:5px;
 
 	&:hover {
@@ -141,8 +141,7 @@ body {
 .mobileDropdown .mobileList ul {
 	display: none;
     position: absolute;
-    top: 17px;
-    float:center;
+    top: 8px;
     padding:1px;
 }
 
@@ -150,10 +149,11 @@ body {
 	display: block;
 	border:solid 2px $orange;
 	background-color:white;
-	height:160px;
-	width:100px;
+	height:130px;
+	width:80px;
 	border-radius:5px;
 	margin-top:23px;
+	margin-left:-8px;
 }
 
 
@@ -177,9 +177,9 @@ h2 {
 }
 
 
-@media (max-width:1079px){
-	.nav li{
-		font-size:30px;
+@media (max-width:1082px){
+	.nav ul li{
+		font-size: 30px;
 		padding:0 39px;
 	}
 }

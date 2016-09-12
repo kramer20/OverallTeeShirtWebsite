@@ -378,3 +378,18 @@ i {
 .column {
 	position:relative;
 }
+
+@media (max-width:439px){
+	.totalTitle{
+		width:289px;
+	 }
+	.totalBox{
+		width:289px;
+	}
+	.cartTitle{
+		width:289px;
+	}
+	.cartBox{
+		width:289px;
+	}
+}

@@ -23,3 +23,16 @@ ul.teamMembers {
 		padding-left:140px;
 	}
 	
+@media (max-width:604px){
+	img.teamPhoto{
+		width:420px;
+		height:215px;
+	}
+}	
+
+@media (max-width:440px){
+	img.teamPhoto{
+		width:229px;
+		height:155px;
+	}
+}

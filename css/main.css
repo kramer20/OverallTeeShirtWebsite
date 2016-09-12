@@ -152,6 +152,16 @@ ul.teamMembers {
   padding-right: 140px;
   padding-left: 140px; }
 
+@media (max-width: 604px) {
+  img.teamPhoto {
+    width: 420px;
+    height: 215px; } }
+
+@media (max-width: 440px) {
+  img.teamPhoto {
+    width: 229px;
+    height: 155px; } }
+
 .contactPage {
   margin-bottom: 80px; }
 
@@ -205,6 +215,11 @@ i.emailIcon {
 
 #commentArea {
   height: 150px; }
+
+@media (max-width: 780px) {
+  .inputColumn {
+    padding-right: 60px;
+    padding-left: 60px; } }
 
 .borderContainer {
   border: 2px solid;
@@ -520,6 +535,16 @@ i {
 .column {
   position: relative; }
 
+@media (max-width: 439px) {
+  .totalTitle {
+    width: 289px; }
+  .totalBox {
+    width: 289px; }
+  .cartTitle {
+    width: 289px; }
+  .cartBox {
+    width: 289px; } }
+
 .totalTitle {
   height: 70px;
   width: 400px;
@@ -674,20 +699,20 @@ body {
   .nav, .footerNav {
     display: none; }
   .mobileMenu {
-    display: block;
-    float: right;
+    display: inline-block;
     margin-top: 30px; }
   .mobileMenu button {
     position: relative;
     color: #E04A34;
     font-family: "Poiret One", cursive;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 5px; } }
 
 .mobileDropdown {
   z-index: 9999;
   display: inline-block;
-  position: relative; }
+  position: relative;
+  float: right; }
 
 .mobileDropdown .mobileList li {
   display: inline-block;
@@ -698,7 +723,7 @@ body {
 .mobileDropdown .mobileList a {
   color: #E04A34;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px; }
   .mobileDropdown .mobileList a:hover {
     background-color: #ea8576;
@@ -707,18 +732,18 @@ body {
 .mobileDropdown .mobileList ul {
   display: none;
   position: absolute;
-  top: 17px;
-  float: center;
+  top: 8px;
   padding: 1px; }
 
 .mobileDropdown:hover .mobileList ul {
   display: block;
   border: solid 2px #E04A34;
   background-color: white;
-  height: 160px;
-  width: 100px;
+  height: 130px;
+  width: 80px;
   border-radius: 5px;
-  margin-top: 23px; }
+  margin-top: 23px;
+  margin-left: -8px; }
 
 h1, h2 {
   font-family: "Patrick Hand SC", cursive;
@@ -734,7 +759,7 @@ h2 {
   margin-top: 30px;
   margin-bottom: 60px; }
 
-@media (max-width: 1079px) {
-  .nav li {
+@media (max-width: 1082px) {
+  .nav ul li {
     font-size: 30px;
     padding: 0 39px; } }
